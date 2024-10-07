@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pixelbackground"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="Nome"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+
+        android:fontFamily="@font/pixelifysans"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:fontFamily="@font/pixelifysans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="Idade"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/pastelblue"
+        android:fontFamily="@font/pixelifysans"
+        android:text="Inserir"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/botao_texto_branco" />
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/pastelblue"
+        android:textColor="@color/white"
+        android:fontFamily="@font/pixelifysans"
+        android:text="Visualizar" />
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pixelifysans"
+        android:textColor="@color/white"
+        android:text="Dados irão aparecer aqui"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
